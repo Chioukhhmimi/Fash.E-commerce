@@ -1,0 +1,316 @@
+/*
+
+
+Fashe. E-commerce tamplate 
+Athour Hmimi chioukh
+Email thekinghc1996@gmail.com
+
+ /-------------------------------------\
+ |                Summery              |
+ \-------------------------------------/
+1 Navigation bar
+
+2 Search [Home]
+
+3 Featured Products
+
+4 Ads section
+
+5 Partener
+
+6 Footer
+
+7 Query section
+
+/------------- What used------------------/
+
+framework Bootstrap 4.1 getbootstrap.com
+icons : Fontawesome fontawesome.com/icons
+Animation WOW.js https://wowjs.uk
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Satisfy|Source+Code+Pro|Poppins');
+body{
+	font-family: "Poppins",sans-serif;
+
+}
+*{
+/*Navigation bar*/
+}
+.navbar{
+	border-bottom:  5px!important;
+	border-color: black;
+}
+.bg-light{
+/*background: linear-gradient(to right, rgba(248,80,50,1) 0%, rgba(242,3,15,1) 7%, rgba(24,42,240,1) 100%)!important;
+*/
+    background-color: #f38181!important;}
+.navigation{
+
+
+	margin-left: 25%!important;
+}
+.navbar-brand{
+	margin-left: 10px;
+	color:  #ffffff!important;
+    font-size: 40px;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+.navbar-nav li a{
+    font-family: "Poppins",sans-serif;
+    font-size: 18px;
+    color: black;
+    border-width: 1px;
+    border-color: black!important;
+}
+.navbar-nav li a:hover{
+	color:  skyblue!important;
+}
+.client{
+
+	padding-left: 320px!important;
+}
+.client a i{
+	color:#ffffff;
+	padding-right: 25px;
+	font-size: 22px;
+}
+.client a i:hover{
+	color: skyblue;
+}
+/* Home Search */
+.home{
+    height: 400px;
+	background-color: #cc99f9!important;
+}
+.Form{
+	margin-top: 15%!important;
+	margin-left: 22%!important;
+}
+/* FEATURED PRODUCTS*/
+#featured{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#featured h2{
+    font-family: "Poppins",sans-serif;
+	margin-bottom:  10px!important;
+}
+.card-body{
+	background-color: #f5f5f5!important;
+	height: 250px!important;
+    background-position: top right !important;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+	-webkit-box-shadow: 3px 2px 15px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 2px 15px -1px rgba(0,0,0,0.75);
+    box-shadow: 3px 2px 15px -1px rgba(0,0,0,0.75);
+}
+.card-body a{
+	color: #212529;
+}
+.cd{
+	margin-left: 00px!important;
+}
+.cd-txt{
+	margin-top: 150px!important;
+	font-weight: 900!important;
+}
+.card-text{
+	    font-family: "Poppins",sans-serif;
+}
+.mens{
+	background-image: url(https://d19m59y37dris4.cloudfront.net/hub/1-4-0/img/banner-1.jpg);
+
+
+}
+.womens{
+	background-image: url(https://d19m59y37dris4.cloudfront.net/hub/1-4-0/img/banner-2.jpg);
+}
+.acess{
+		background-image: url(https://d19m59y37dris4.cloudfront.net/hub/1-4-0/img/banner-3.jpg);
+
+}
+a:hover{
+	text-decoration: none!important;
+}
+
+#featured-products{
+	background-color: #fff6f6;
+	height: auto;
+}
+#featured-products h2,h5{
+    font-weight: 900;
+    font-family: "Poppins",sans-serif;
+	padding-top: 10px!important;
+}
+.img-fluid{
+	margin: 0px 0px 0px 0px!important;
+
+}
+.card{
+	margin-bottom: 10px!important;
+}
+.card-pd{
+	    border: 0px!important;
+	    background-color: transparent!important;
+
+}
+#new-products h5{
+color: black!important;}
+#featured-product.card-title{
+	margin-top: -300px!important;
+}
+
+.card-pd:hover .title-p{
+	display: block;
+}
+.card-footer{
+	position: bottom!important;
+}
+.showme h3{
+font-weight: 900;
+	font-size: 22px;
+	color: #cffdf8;
+}
+.showme{ 
+display: none;
+border-radius: 20px;
+font-size: 18px;
+}
+.showhim:hover .showme{
+    display : block;
+	margin-top: -50%!important;
+	color: #ffe2e2;
+
+}
+
+.badge-info,.badge-success,.badge-danger{
+	position: absolute!important;
+}
+
+.card-block{
+	width: 150px;
+}
+
+
+/*ADS section*/
+#ads{
+	background-image: url(https://d19m59y37dris4.cloudfront.net/hub/1-4-0/img/divider-bg.jpg);
+	background-size: cover;
+	border-radius: 200px 0px 200px 0px;
+    -moz-border-radius: 200px 0px 200px 0px;
+    -webkit-border-radius: 200px 0px 200px 0px;
+    border: 0px groove #000000;
+	margin-top: 40px!important;
+	background-color: #89f8ce;
+	background-repeat: no-repeat;
+	height: 400px;
+}
+.info-gift{
+	margin-top: 200px;
+}
+.info-gift .t{
+	color: white;
+	font-family: "Poppins",sans-serif;
+}
+
+.order{
+	margin-top: 20px;
+	margin-left: 250px;
+	border-radius: 50px;
+}
+ /*Partener Section*/
+#partener{
+	margin-top: 40px;
+}
+#block{
+	margin-left:  40px!important;
+}
+/*Footer*/
+#footer{
+	margin-top: 50px;
+}
+#ft-info{
+	color: white;
+	background-color: black;
+}
+
+#ft-info i{
+	padding-right: 10px;
+	font-size: 50px;
+	padding-top: 20px;
+}
+
+
+#ft-info i:hover{
+	color: #ffcab0;
+
+
+}
+#ft-link{
+	background-color: black;
+	padding-top: 90px;
+}
+.footer-brand{
+	margin-left: 100px!important;
+	color:  #ffb6b9!important;
+    font-size: 40px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.pres{
+	margin-left:  70px!important;
+	color: white;
+}
+.social-media{
+	margin-left:  40px;
+	display: inline-flex;
+		list-style: none!important;
+
+}
+.social-media i{
+	color: #ffcab0;
+	padding-right: 28px; 
+}
+
+.Help-link h4{
+	color: white;
+}
+.link a{
+	font-size: 18px;
+	text-decoration: none!important;
+	color: white!important;
+}
+.link{
+	list-style: none;
+	letter-spacing: 2px;
+}
+.talk h4,p{
+	color: white;
+}
+#button-addon2 i{
+	color: #ffcab0!important;
+}
+.copyrigth h6{
+	color: white;
+}
+/*------------------------------------------------------------*/
+
+/*------------------------------------------------------------*/
+@media screen and (max-width: 600px) {
+
+.Form{
+	display: none;
+}
+.showhim:hover .showme{
+display : none;
+	margin-top: -60%!important;
+	color: white;
+	background-color: red;
+
+}
+#ads{
+	display: none;
+}
+}

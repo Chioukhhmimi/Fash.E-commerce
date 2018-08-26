@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Satisfy|Source+Code+Pro|Poppins');
+body{
+	font-family: "Poppins",sans-serif;
+
+}
+*{
+
+}
+.navbar{
+	border-bottom:  5px!important;
+	border-color: black;
+}
+.bg-light{
+/*background: linear-gradient(to right, rgba(248,80,50,1) 0%, rgba(242,3,15,1) 7%, rgba(24,42,240,1) 100%)!important;
+*/
+background-color: #f38181!important;}
+.navigation{
+
+
+	margin-left: 25%!important;
+}
+.navbar-brand{
+	margin-left: 10px;
+	color:  #ffffff!important;
+font-size: 40px;
+font-family: 'Gloria Hallelujah', cursive;
+
+}
+.navbar-nav li a{
+font-family: "Poppins",sans-serif;
+font-size: 18px;
+color: black;
+border-width: 1px;
+border-color: black!important;
+}
+.navbar-nav li a:hover{
+	color:  skyblue!important;
+}
+.client{
+
+	padding-left: 320px!important;
+}
+.client a i{
+	color:#ffffff;
+	padding-right: 25px;
+	font-size: 22px;
+}
+.client a i:hover{
+	color: skyblue;
+}
+
+.cntc {
+	color: red!important;
+}
+
+
+.info{
+	color: grey;
+	line-height: 2rem!important;
+}
+.contact{
+	margin-top: 50px;
+}
+
+
+.clum{
+	margin-top: 70px;
+}
+
+.y{color: grey;
+	line-height: 1rem;
+	font-weight: 900;
+}
+.info i{
+	color: #f38181;
+	font-size: 50px!important;
+}
+.mail{
+	margin-top: 50px;
+}
+.smq i{
+	color: #e14594!important;
+}
+.form-control{
+	border-radius: 30px!important;
+}
+.form-control:hover{
+	border-color: #f38181;
+}
+.btn-dft{
+	color: white;
+	padding: 10px!important;
+	background-color: #f38181!important;
+		border-color: #f38181!important;
+	border-radius: 25px!important;	
+}
+
+.yl{
+	color: grey;
+	line-height: 2rem;
+	font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+#footer{
+	margin-top: 50px;
+}
+#ft-info{
+	color: white;
+	background-color: black;
+}
+
+#ft-info i{
+	padding-right: 10px;
+	font-size: 30px;
+	padding-top: 20px;
+}
+
+
+#ft-info i:hover{
+	color: #ffcab0;
+
+
+}
+#ft-link{
+	background-color: black;
+	padding-top: 90px;
+}
+.footer-brand{
+	margin-left: 100px!important;
+	color:  #ffb6b9!important;
+    font-size: 30px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.pres{
+	margin-left:  70px!important;
+	color: white;
+}
+.social-media{
+	margin-left:  40px;
+	display: inline-flex;
+		list-style: none!important;
+
+}
+.social-media i{
+	color: #ffcab0;
+	padding-right: 28px; 
+}
+
+.Help-link h4{
+	color: white;
+}
+.link a{
+	font-size: 16px;
+	text-decoration: none!important;
+	color: white!important;
+}
+.link{
+	list-style: none;
+	letter-spacing: 2px;
+}
+.talk h4,p{
+	color: white;
+}
+#button-addon2 i{
+	color: #ffcab0!important;
+}
+.copyrigth h6{
+	color: white;
+}

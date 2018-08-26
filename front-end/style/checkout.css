@@ -1,0 +1,269 @@
+
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Satisfy|Source+Code+Pro|Poppins');
+body{
+	font-family: "Poppins",sans-serif;
+
+}
+*{
+
+}
+.navbar{
+	border-bottom:  5px!important;
+	border-color: black;
+}
+.bg-light{
+/*background: linear-gradient(to right, rgba(248,80,50,1) 0%, rgba(242,3,15,1) 7%, rgba(24,42,240,1) 100%)!important;
+*/
+background-color: #f38181!important;}
+.navigation{
+
+
+	margin-left: 20%!important;
+}
+.navbar-brand{
+	margin-left: 10px;
+	color:  #ffffff!important;
+    font-size: 40px;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+.navbar-nav li a{
+font-family: "Poppins",sans-serif;
+font-size: 18px;
+color: black;
+border-width: 1px;
+border-color: black!important;
+}
+.navbar-nav li a:hover{
+	color:  skyblue!important;
+}
+.client{
+
+	padding-left: 320px!important;
+}
+.client a i{
+	color:#ffffff;
+	padding-right: 25px;
+	font-size: 22px;
+}
+.client a i:hover{
+	color: skyblue;
+}
+
+
+
+.title-ckeckout{
+
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+
+.title-ckeckout h2{
+	font-size: 40px;
+	font-weight: 900;
+}
+#checkout{
+		background-color: #f5f5f5;
+
+}
+.disabled{
+	cursor: not-allowed!important;
+}
+
+.tab{
+	margin-right: 30px;
+	color: #f38181;
+}
+
+.nav-link.active {
+    background: #9055A2;
+    color: #fff;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #ffffff;
+    background-color: #f38181!important;
+    border-color: #f38181 ;
+}
+#steps{
+	margin-top:  30px!important;
+}
+.ron{
+	border-radius: 50px; 
+	border-color: #f38181!important;
+}
+.pass{
+	background-color: #f5f5f5!important;
+	padding-top: 10px;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	border-radius: 73px 73px 73px 73px;
+    -moz-border-radius: 73px 73px 73px 73px;
+    -webkit-border-radius: 73px 73px 73px 73px;
+    border: 0px solid #000000;
+}
+.form-control{
+	border-radius: 30px!important;
+}
+.form-control:hover{
+	border-color: #f38181;
+}
+.btn-dft{
+	color: white;
+	padding: 10px!important;
+	background-color: #f38181!important;
+		border-color: #f38181!important;
+	border-radius: 25px!important;	
+}
+
+.btn-outline-primary{
+	padding: 10px!important;
+	color: #f38181;
+	border-radius: 25px!important;
+	border-color: #f38181!important;
+}
+.d-flex a i{
+	padding-left: 10px!important;
+}
+.d-flex i{
+	padding-right:  10px;
+}
+.btn-outline-primary:hover{
+color: white;
+	padding: 10px!important;
+	background-color: #f38181!important;
+		border-color: #f38181!important;
+	border-radius: 25px!important;	
+}
+.end{
+	color: #f38181;
+	font-size: 30px;
+}
+.card {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 20px;
+}
+
+ .card-header {
+    padding: 15px 20px;
+    background: #fff;
+    border: none !important;
+    border-radius: 50px!important;
+    background: #f5f5f5;
+}
+#payment-method{
+	margin-top: 20px;
+}
+.card-header a{
+	text-decoration: none;
+	color: #f38181;
+}
+.item{
+	max-width: 80px;
+}
+.review{
+	margin-top: 30px;
+}
+.title-pd a{
+	text-decoration: none;
+	color: #f38181;
+}
+#cnf{
+	margin-top: 20px;
+}
+.confirmation-icon i{
+	color: #f38181;
+	border-color: #f38181;
+	border-width: 3px;
+}
+.confirmation-icon{
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #9055A2;
+    border: solid 1px #f38181;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+#footer{
+	margin-top: 50px;
+}
+#ft-info{
+	color: white;
+	background-color: black;
+}
+
+#ft-info i{
+	padding-right: 10px;
+	font-size: 30px;
+	padding-top: 20px;
+}
+
+
+#ft-info i:hover{
+	color: #ffcab0;
+
+
+}
+#ft-link{
+	background-color: black;
+	padding-top: 90px;
+}
+.footer-brand{
+	margin-left: 100px!important;
+	color:  #ffb6b9!important;
+    font-size: 30px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.pres{
+	margin-left:  70px!important;
+	color: white;
+}
+.social-media{
+	margin-left:  40px;
+	display: inline-flex;
+		list-style: none!important;
+
+}
+.social-media i{
+	color: #ffcab0;
+	padding-right: 28px; 
+}
+
+.Help-link h4{
+	color: white;
+}
+.link a{
+	font-size: 16px;
+	text-decoration: none!important;
+	color: white!important;
+}
+.link{
+	list-style: none;
+	letter-spacing: 2px;
+}
+.talk h4,p{
+	color: white;
+}
+#button-addon2 i{
+	color: #ffcab0!important;
+}
+.copyrigth h6{
+	color: white;
+}

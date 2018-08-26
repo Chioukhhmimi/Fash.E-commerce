@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
+   
+
+    <link rel="stylesheet" type="text/css" href="../style/customer-dashboard.css">
+    <link rel="stylesheet" href="../style/animate.css">
+    <link rel="stylesheet" href="../style/owl.carousel.min.css">
+<link rel="stylesheet" href="../style/owl.theme.default.min.css">
+      <title>Front end!</title>
+  </head>
+  <body>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand logo" href="#">Fashe.</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav navigation">
+      <li class="nav-item active">
+        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="shope.html">Shope</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Featured</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+     <div class="client ">
+       
+        <a href="login-siginup.html"><i class="fas fa-user">
+        </i>
+        <a href="login-siginup.html"><i class="fas fa-shopping-cart">
+        </i>
+       </a>
+         	
+  </div>
+  </div>
+ 
+</nav>
+
+<section id="profil">
+  <div class="container-fluid">
+    <div class="row" id="profile-detail">
+      
+    <div class="col-lg-4">
+      <div class="card-block">
+        <img src="https://d19m59y37dris4.cloudfront.net/hub/1-4-0/img/person-1.jpg" class=" profile-pic img-thumbnail rounded-circle">
+        <h4 class="text-center"> Jhon Snow</h4>
+        <p  class="text-center ">Stark.Winterfell</p>
+        <ul class="nav nav-tabs flex-column" role="tablist">
+        <li class="nav-item">
+         <a class="nav-link  active show" href="#profile" role="tab" data-toggle="tab" aria-selected="true" >Profile <i class="far  fa-user"></i></a>
+         </li>
+        <li class="nav-item">
+         <a class="nav-link" href="#orders" role="tab" data-toggle="tab" aria-selected="false">Orders<i class="fas fa-shopping-bag"></i></a>
+         </li>
+        <li class="nav-item">
+         <a class="nav-link" href="#address" role="tab" data-toggle="tab" aria-selected="false">Address<i class="far fa-address-book"></i></a>
+         </li>
+        <li class="nav-item">
+         <a class="nav-link disabled" href="login-siginup.html">Log out <i class="fas fa-sign-out-alt"></i></a>
+         </li>
+</ul>
+
+      </div>
+    </div>
+    <div class="col-lg-8 tab-content flex-column">
+  <div id="profile" role="tabpanel" class="tab-pane active show">
+     <div class=" pass " id="password">
+      <h3 class="text-center">Change your Password</h3>
+    </div>
+    <div class="col-lg-6 ps" >
+      
+    <div class="form-group">
+      <label class="form-lable" for="password_old" >Old Password </label>
+      <input type="password" name="password_old" class="form-control" >
+
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="form-group">
+      <label class="form-lable" for="password_new" >New Password </label>
+      <input type="password" name="password_new" class="form-control" >
+
+    </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="form-group">
+      <label class="form-lable" for="password_confirm" >Confirme New Password </label>
+      <input type="password" name="password_confirm" class="form-control" >
+
+    </div>
+      </div>
+      
+    </div>
+   <div class="text-center butn ">
+    <button type="submit" class="btn btn-dft rounded"><i class="far fa-save"></i>Change Password</button>
+
+     
+   </div>
+   <div class=" pass " id="password">
+      <h3 class="text-center">Personal information</h3>
+    </div>
+    <div class="row">
+<div class="col-lg-6">
+        <div class="form-group">
+      <label class="form-lable" for="first_name" >First Name </label>
+      <input type="text" name="first_name" class="form-control" >
+
+    </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="form-group">
+      <label class="form-lable" for="last_name" >Last Name </label>
+      <input type="text" name="last_name" class="form-control" >
+
+    </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="form-group">
+      <label class="form-lable" for="email" >Your Email </label>
+      <input type="mail" name="email" class="form-control" >
+
+    </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="form-group">
+      <label class="form-lable" for="street" >Street </label>
+      <input type=street" name="street" class="form-control" >
+
+    </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="form-group">
+      <label class="form-lable" for="country" >Country</label>
+      <select class="form-control" id="country">
+    
+      </select>
+
+    </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="form-group">
+      <label class="form-lable" for="state" >State</label>
+      <select class="form-control">
+        
+      </select>
+
+    </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="form-group">
+      <label class="form-lable" for="zip" >Your Zip code</label>
+     <input type="number" name="zip" class="form-control">
+
+    </div>
+      </div>
+       <div class="col-lg-6">
+        <div class="form-group">
+      <label class="form-lable" for="numero" >Your Number</label>
+     <input type="number" name="numero" class="form-control">
+
+    </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="text-center butn ">
+    <button type="submit" class="btn btn-dft rounded"><i class="far fa-save"></i>Save Change </button>
+
+     
+   </div>
+      </div>
+    </div>
+  </div>
+  <div id="orders" role="tabpanel" class="tab-pane">
+    <div class="col-lg-12 tab-content flex-column">
+      <div class=" pass " id="password">
+      <h3 class="text-center">Your Orders</h3>
+    </div>
+      <table  class="table table-hover table-responsive-md">
+        <thead>
+          <th>
+            Orders
+          </th>
+           <th>
+            Date
+          </th>
+           <th>
+            Total
+          </th>
+           <th>
+            Products
+          </th>
+           <th>
+            Statue
+          </th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>#204</td>
+            <td>15/2/2018</td>
+            <td>58$</td>
+            <td>Nike t shirts</td>
+            <td><span class="badge badge-success">Done</span>
+            </td>
+          </tr>
+          <tr>
+            <td>#258</td>
+            <td>15/7/2018</td>
+            <td>58$</td>
+            <td>Polo t shirts</td>
+            <td><span class="badge badge-warning">Progress</span>
+            </td>
+          </tr>
+          <tr>
+            <td>#784</td>
+            <td>1/2/2018</td>
+            <td>180$</td>
+            <td>Nike Air one</td>
+            <td><span class="badge badge-success">Done</span>
+            </td>
+          </tr>
+          <tr>
+            <td>#432</td>
+            <td>1/7/2016</td>
+            <td>180$</td>
+            <td>Nike Air one</td>
+            <td><span class="badge badge-danger">Cancelled</span>
+            </td>
+          </tr>
+          <tr>
+            <td>#438</td>
+            <td>1/7/2016</td>
+            <td>32$</td>
+            <td>Nike hooddie</td>
+            <td><span class="badge badge-info">Waiting...</span>
+            </td>
+          </tr>
+        </tbody>
+        
+      </table>
+    </div>
+    </div>
+  <div id="address" role="tabpanel" class="tab-pane">
+<div class="col-lg-12 tab-content flex-column">
+      <div class=" pass " id="password">
+      <h3 class="text-center">Your Addresses</h3>
+    </div>
+    <div class="row ps" >
+      <div class="col-lg-6" id="pss">
+        <div class="form-group">
+      <label class="form-lable" for="first_name" >First Name </label>
+      <input type=text" name="first_name" class="form-control" >
+
+    </div>
+      </div>
+      <div class="col-lg-6" id="pss">
+        <div class="form-group">
+      <label class="form-lable" for="last_name" >Last Name </label>
+      <input type=text" name="last_name" class="form-control" >
+
+    </div>
+      </div>
+    </div>
+      <div class="row ps" >
+      <div class="col-lg-6" id="pss">
+        <div class="form-group">
+      <label class="form-lable" for="email" >Email </label>
+      <input type=email" name="email" class="form-control" >
+
+    </div>
+      </div>
+      <div class="col-lg-6" id="pss">
+        <div class="form-group">
+      <label class="form-lable" for="street" >Street  </label>
+      <input type=text" name="street" class="form-control" >
+
+    </div>
+      </div>
+    </div>
+ <div class="row ">
+  <div class="col-lg-3" id="pss">
+        <div class="form-group">
+      <label class="form-lable" for="city" >City  </label>
+      <input type=text" name="city" class="form-control" >
+
+    </div>
+      </div>
+      <div class="col-lg-3" id="pss">
+        <div class="form-group">
+      <label class="form-lable" for="zip" > Zip code </label>
+      <input type=text" name="zip" class="form-control" >
+
+    </div>
+      </div>
+      <div class="col-lg-3" id="pss">
+        <div class="form-group">
+      <label class="form-lable" for="state" >State </label>
+      <input type=text" name="state" class="form-control" >
+
+    </div>
+      </div>
+      <div class="col-lg-3" id="pss">
+        <div class="form-group">
+      <label class="form-lable" for="country" > Country </label>
+      <input type=text" name="country" class="form-control" >
+
+    </div>
+      </div>
+   
+ </div>
+ <div class="row">
+    <div class="col-lg-6" id="pss">
+        <div class="form-group">
+      <label class="form-lable" for="numero" >Your Number </label>
+      <input type=number" name="numero" class="form-control" >
+
+    </div>
+      </div>
+      <div class="col-lg-6">
+         <div class="form-group">
+      <label class="form-lable" for="company" >Company </label>
+      <input type=text" name="company" class="form-control" >
+
+    </div>
+        
+      </div>
+ </div>
+<div class="text-center butn ">
+    <button type="submit" class="btn btn-dft rounded"><i class="far fa-save"></i>Save Change </button>
+
+     
+   </div>
+
+  </div>
+  </div>
+  </div>
+   </div>
+   </div>
+  
+</section> 
+
+
+
+
+
+   <section id="footer">
+  <div class="container-fluid">
+    <div class="row " id="ft-info">
+
+      <div class="col-lg-4 text-center">
+        <div class="icon">
+          <i class="fas fa-truck-moving wow fadeInUp"></i>
+        </div>
+        <div class="text">
+          <h5 class="text-center wow fadeInUp">Fast Shipping</h5>
+        <p class="text-center wow fadeInUp">Free Shipping over 48 state*</p>
+        </div>
+        
+        <!-- </p>-->
+      </div>
+      <div class="col-lg-4 text-center">
+        <div class="icon">
+          <i class="fas fa-dollar-sign wow fadeInUp"></i>
+        </div>
+        <div class="text">
+          <h5 class="text-center wow fadeInUp">Money back guarantee</h5>
+        <p class="text-center wow fadeInUp">30 Days Money Back Guarantee</p>
+        </div>
+        
+        
+      </div>
+      <div class="col-lg-4 text-center">
+        <div class="icon">
+          <i class="fas fa-headphones wow fadeInUp"></i>
+        </div>
+        <div class="text">
+          <h5 class="text-center wow fadeInUp">+213xxx xxx xx</h5>
+        <p class="text-center wow fadeInUp">Availeble 24/7 </p>
+        </div>
+        <!---->
+        
+      </div>
+
+      
+    </div>
+    
+  </div>
+  <div class="container-fluid">
+    <div class="row" id="ft-link">
+      <div class="col-lg-4">
+        <div class="logo-footer">
+          <h2 class=" footer-brand">Fashe.</h2>
+           
+        </div>
+        <div class="pres">
+          <p class="text-left ">
+            Lorem ipsum dolor sit amet, consectetur adipisicing
+            
+          </p>
+          
+        </div>
+        <div class="social">
+          <ul class="social-media">
+            <li class="item"><i class="fab fa-facebook"></i></li>
+            <li class="item"><i class="fab fa-twitter"></i></li>
+            <li class="item"><i class="fab fa-google-plus-g"></i></li>
+            <li class="item"><i class="fab fa-instagram"></i></li>
+            <li class="item"><i class="fab fa-youtube"></i></li>
+            
+          </ul>
+          
+        </div>
+        
+      </div>
+      <div class="col-lg-2">
+        <div class="Help-link">
+          <h4 class="text-left ">Shope</h4>
+          <ul class="link text-left">
+          <a href="#"><li class="item">Mens</li></a>
+          <a href="#"><li class="item">Womens</li></a>
+          <a href="#"><li class="item">Contact Us</li></a>
+          <a href="#"><li class="item">Our Blog</li></a>
+          <a href="#"><li class="item">Stores</li></a>
+          </ul>
+          
+        </div>
+        
+          
+        
+      </div>
+      <div class="col-lg-2">
+        <div class="Help-link">
+          <h4 class="text-left ">Company</h4>
+          <ul class="link text-left">
+          <a href=""><li class="item">Login</li></a>
+          <a href="#"><li class="item">Register</li></a>
+          <a href="#"><li class="item">Partners </li></a>
+          <a href="#"><li class="item">Termes and service</li></a>
+          
+          </ul>
+          
+        </div>
+        
+          
+        
+      </div>
+      <div class="col-lg-4">
+        <div class="talk">
+           <h4 class="text-left">
+          DAILY OFFERS & DISCOUNTS
+        </h4>
+        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
+        </div>
+        <div class="emil">
+          <div class="input-group mb-3">
+             <input type="text" class="form-control" placeholder="Your Email" aria-label="Email" aria-describedby="button-addon2">
+       <div class="input-group-append">
+                 <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa fa-paper-plane"></i></button>
+  </div>
+</div>
+        </div>
+        
+        
+      </div>
+      
+    </div>
+    
+  </div>
+  <div class="container-fluid">
+    <div class="row copyrigth"  id="ft-link" >
+      <div class="col-lg-12">
+        <h6 class="text-center "> Copyrigth Fashe. <i class="far fa-copyright"></i> 2018 </h6>
+        
+      </div>
+    </div>
+    
+  </div>
+
+ </section>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+
+   <script src="../js/owl.carousel.min.js"></script>
+
+   <script src="../js/slider.js">
+
+</script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+     <script type="text/javascript" src="js/wow.min.js"></script>
+
+    <script>
+      new WOW().init();
+</script>
+  </body>
+  
+  </html>
